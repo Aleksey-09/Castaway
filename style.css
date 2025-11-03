@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 600ms ease;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.2);
+    transition: all 600ms ease;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: #191919;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header  nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 60px;
+
+}
+
+.hero .leftSection {
+    width: 650px;
+    height: 874px;
+}
+
+.hero .leftSection img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .rightSection h1{
+    font-size: 70px;
+    line-height: 88px;
+    font-weight: 400;
+    margin-bottom: 74px;
+}
+
+.hero .rightSection img {
+    width: 32px;
+    height: 32px;
+    margin-right: 17px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.hero .rightSection img:hover {
+    transform: scale(1.2);
+    transition: all 600ms ease;
+}
+
+.episodes {
+    margin-top: 100px;
+}
+
+.card-info__episode {
+    color: #118DA8;
+}
+
+.episodes button {
+    display: inline-block;
+    padding: 12px 15px 12px 20px;
+    background: #118DA8;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 600ms ease;
+    color: #fff;
+
+}
+
+.episodes button:hover {
+    /* transform: translateY(-2px); */
+    transform: scale(1.2);
+    
+    transition: all 600ms ease;
+}
+
+.episodes__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.episodes h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+
+.logoBattun {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episodes .episodes__cards .card {
+    display: flex;
+    background: #000;
+    border-radius: 32px;
+    padding: 40px 40px;
+}
+
+.card-img {
+    max-width: 389px;
+    max-height: 465px;
+    margin-right: 53px;
+}
+
+.card-info h1 {
+    margin-bottom: 28px;
+}
+
+.card-info p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.card-info button {
+    margin-top: 18px;
+}
+
+
+
+.card-img img {
+    width: 100%;
+}
+
+
+
+.episodes .episodes__cards .card .card-info .card-info__episode {
+    color: #118DA8;
+    margin-bottom: 18px;
+}
+
+
+
+.card-gear {
+    padding: 7px 16px;
+    background: #191919;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 48px;
+    
+}
+
+.speak {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.speak-left {
+    
+}
+
+.speak-left img {
+    margin-top: 147px;
+    width: 112px;
+    height: 112px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.speak-left img:hover {
+    transition: all 600ms ease;
+    transform: scale(1.2);
+}
+
+.speak-left h1 {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 79px;
+    margin-bottom: 28;
+}
+
+.speak-left p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.speak-right {
+    width: 650px;
+    height: 743px;
+
+}
+
+.speak-right img {
+    width: 100%;
+    height: auto;
+}
+
+.subscribe {
+    background: #000;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px;
+    margin-bottom: 100px;
+}
+
+
+
+.text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 26px;
+}
+
+.text h1 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.emailForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.emailForm form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background: #191919;
+    border: none;
+    border-radius: 6px;
+    padding: 26px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.emailForm button {
+    padding: 10px 19px;
+    background: #118DA8;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 600ms ease; 
+}
+
+.emailForm button:hover {
+    transition: all 600ms ease;
+    transform: scale(1.2);
+}
+
+.review {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.review .comment {
+    background: #000;
+    border-radius: 32px;
+    width: 30%;
+    padding: 50px 54px;
+    box-sizing: border-box;
+}
+
+.comment-info h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.footer-social {
+    margin-top: 23px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+}
+
+.footer-social img {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.footer-social img:hover {
+    transform: scale(1.2);
+    transition: all 600ms ease;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-top: 10px;
+}
+
+.footer-listen img {
+    margin-right: 17px;
+    transition: all 600ns ease;
+    cursor: pointer;
+}
+
+.footer-listen img:hover {
+    transition: all 600ms ease;
+    transform: scale(1.2);
+}
+
+
+.about {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    
+}
+
+.contact h3 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.contact-form input {
+    padding: 21px 19px;
+    border-radius: 32px;
+}
+
+
+.contact-form button {
+    display: inline-block;
+    padding: 12px 15px 12px 20px;
+    background: #118DA8;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    transition: all 600ms ease;
+    color: #fff;
+}
+
+.contact-form button:hover {
+    transform: scale(1.1);
+    transition: all 600ms ease;
+}
+
+
+
+
+
+
+
+@media(max-width: 1024px) {
+    .container {
+        padding: 0 5%;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .speak {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}
+
+
+@media(max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+        
+    }
+
+    .hero .leftSection {
+        width: 320px;
+        height: 443px;
+        
+    }
+
+    .leftSection img {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .speak-right {
+        width: 320px;
+        height: 443px;
+    }
+
+    .speak-right img {
+        
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .subscribe h1, p {
+        
+    }
+
+    .review .comment {
+        width: 50%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 425px) {
+    h1 {
+        font-size: 1.5rem;
+        
+        overflow-wrap: break-word;
+    }
+
+    .review .comment {
+        width: 100%;
+    }
+}
+
